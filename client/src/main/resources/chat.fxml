@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChatController">
+    <ListView fx:id="listView" layoutX="14.0" layoutY="14.0" prefHeight="429.0" prefWidth="372.0" AnchorPane.bottomAnchor="58.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0"/>
+    <TextField fx:id="statusBar" editable="false" layoutX="14.0" layoutY="556.0" prefHeight="30.0" prefWidth="251.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="128.0" AnchorPane.topAnchor="556.0" />
+   <Button layoutX="115.0" layoutY="354.0" onAction="#send" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="SEND FILE" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="556.0" />
+</AnchorPane>
